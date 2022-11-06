@@ -1,0 +1,1 @@
+export const minutesToTime = (n) => `0${n / 60 ^ 0}`.slice(-2) + ':' + ('0' + n % 60).slice(-2)

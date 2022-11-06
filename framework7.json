@@ -1,0 +1,20 @@
+{
+  "cwd": "D:\\work\\mygym",
+  "type": [
+    "pwa",
+    "web"
+  ],
+  "name": "MyGym",
+  "framework": "react",
+  "template": "single-view",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": true,
+    "color": "#00695c",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

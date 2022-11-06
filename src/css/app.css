@@ -1,0 +1,9 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #00695c;
+  --f7-theme-color-rgb: 0, 105, 92;
+  --f7-theme-color-shade: #004038;
+  --f7-theme-color-tint: #009280;
+}
+
+/* Your app custom styles here */
