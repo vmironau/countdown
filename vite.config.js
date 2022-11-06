@@ -14,12 +14,9 @@ export default {
 
   ],
   root: SRC_DIR,
-  base: './index.html',
+  base: '',
   publicDir: PUBLIC_DIR,
   build: {
-    input: {
-      app: './index.html', // default
-    },
     outDir: BUILD_DIR,
     assetsInlineLimit: 0,
     emptyOutDir: true,
