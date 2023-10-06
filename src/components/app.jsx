@@ -37,7 +37,7 @@ const MyApp = () => {
 
   // Framework7 Parameters
   const f7params = {
-    name: 'MyGym', // App name
+    name: 'Countdown', // App name
       theme: 'auto', // Automatic theme detection
 
       // App store

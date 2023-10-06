@@ -17,7 +17,7 @@ const HomePage = () => (
       <NavLeft>
         <Link iconIos="f7:menu" iconAurora="f7:menu" iconMd="material:menu" panelOpen="left" />
       </NavLeft>
-      <NavTitle>MyGym</NavTitle>
+      <NavTitle>Countdown</NavTitle>
     </Navbar>
 
     <StartBlock/>
