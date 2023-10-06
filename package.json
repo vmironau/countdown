@@ -1,8 +1,8 @@
 {
-  "name": "mygym",
+  "name": "countdown",
   "private": true,
   "version": "1.0.0",
-  "description": "MyGym",
+  "description": "Countdown",
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {

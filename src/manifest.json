@@ -1,7 +1,7 @@
 {
-  "name": "MyGym",
-  "short_name": "MyGym",
-  "description": "MyGym",
+  "name": "Countdown",
+  "short_name": "Countdown",
+  "description": "Countdown",
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
