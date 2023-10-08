@@ -6,7 +6,7 @@ import {
   NavTitle,
   Link,
 } from 'framework7-react';
-import StartBlock from "./start-block";
+import CountdownBlock from "./cd-block";
 import StatsTabs from "./stats-tabs";
 import LastWorkout from "./last-workout";
 
@@ -20,7 +20,7 @@ const HomePage = () => (
       <NavTitle>Countdown</NavTitle>
     </Navbar>
 
-    <StartBlock/>
+    <CountdownBlock/>
     <StatsTabs/>
     <LastWorkout/>
 
