@@ -10,7 +10,16 @@ import CountdownBlock from "./cd-block";
 import StatsTabs from "./stats-tabs";
 import LastWorkout from "./last-workout";
 
-const HomePage = () => (
+const HomePage = () => {
+  const event1 = {
+    name: "Summer Weekends",
+    type: EVENT_WEEK_TYPE,
+    period: 1,
+    end: "2023-11-30",
+    start: "2023-09-01",
+  }
+  
+  return (
   <Page name="home">
     {/* Top Navbar */}
     <Navbar>
@@ -20,11 +29,11 @@ const HomePage = () => (
       <NavTitle>Countdown</NavTitle>
     </Navbar>
 
-    <CountdownBlock/>
+    <CountdownBlock event={event1}/>
     <StatsTabs/>
     <LastWorkout/>
 
 
   </Page>
-);
+)};
 export default HomePage;

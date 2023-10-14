@@ -6,23 +6,24 @@ import {
   Gauge,
 } from 'framework7-react';
 
-const EVENT_WEEKDAY_TYPE = "EVENT_WEEKDAY_TYPE";
-const EVENT_WEEK_TYPE = "EVENT_WEEK_TYPE";
 
-const getEventTypeTitle = t => {
-  switch (t) {
-    case EVENT_WEEKDAY_TYPE: return "Days of week";
-    case EVENT_WEEK_TYPE: return "Week"
+const getEventCurrentState = event => {
+  if(isDateEvent(event.type)) {
+    return new Date()
+  } else {
+    return event.currentState
   }
-  
 }
 
-const CountdownBlock = () => {
-  const eventsRemains = 8;
-  const eventName  = "Summer Weekends"
-  const eventType = EVENT_WEEK_TYPE;
+const CountdownBlock = (props) => {
+  const event = props.event;
+  const 
+  
+  const eventsRemains = calcEventSteps(getEventCurrentState(event));
+  const eventName  = event.name
+  const eventType = event.type;
   const eventTitle = getEventTypeTitle(eventType)
-  const eventPeriod = 1
+  const eventPeriod = event.period
   const eventEnd = "2023-11-30"
   const eventStart = "2023-09-01"
   const eventSteps = 12
